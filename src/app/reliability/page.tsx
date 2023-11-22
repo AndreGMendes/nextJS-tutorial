@@ -1,5 +1,9 @@
 export default function ReliabilityPage() {
-  const pageName = "Reliability Page!";
-  console.log(pageName);
-  return <div>{pageName}</div>;
+  const getPageName = (): string => {
+    const pageName = "Reliability Page!";
+    console.log(pageName);
+    return pageName;
+  };
+
+  return <div>{getPageName()}</div>;
 }
