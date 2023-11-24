@@ -13,6 +13,7 @@ export default function ScalePage() {
       imgData={scaleImage}
       imgAlt="Steel Factory"
       title="Scale your Application to infinity"
+      className="text-white text-6xl hover:text-emerald-400"
     />
   );
 }

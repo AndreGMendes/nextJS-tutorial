@@ -17,6 +17,7 @@ export default function PerformancePage() {
       imgData={performanceImage}
       imgAlt="Robot Welding"
       title="We serve high performance Applications"
+      className="text-white text-6xl hover:text-emerald-400"
     />
   );
 }

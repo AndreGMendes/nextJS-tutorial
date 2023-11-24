@@ -17,6 +17,7 @@ export default function Home() {
       imgData={homeImage}
       imgAlt="Car Factory"
       title="Professional Cloud Hosting"
+      className="text-white text-6xl hover:text-emerald-400"
     />
   );
 }

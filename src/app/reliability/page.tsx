@@ -18,6 +18,7 @@ export default function ReliabilityPage() {
       imgData={reliabilityImage}
       imgAlt="Human Welding"
       title="Super high reliability Hosting"
+      className="text-white text-6xl hover:text-emerald-400"
     />
   );
 }
