@@ -8,7 +8,7 @@ const Header = () => {
           Home
         </Link>
         <div className="space-x-4 text-xl flex items-end">
-          <Link href="/performance" className="text-2xl font-bold text-indigo-500/100 hover:text-emerald-400 ">Performance</Link>
+          <Link href="/performance" className="text-2xl font-bold text-indigo-500/100 hover:text-emerald-400">Performance</Link>
           <Link href="/reliability" className="text-2xl font-bold text-indigo-500/100 hover:text-emerald-400">Reliability</Link>
           <Link href="/scale" className="text-2xl font-bold text-indigo-500/100 hover:text-emerald-400">Scale</Link>
         </div>
